@@ -14,7 +14,7 @@ def hello_world():
 def hello_world():
     return 'Hello, World!'
 
-@app.route('/user/<username>')
+@app.route('/<username>')
 def hello_user(username):
     return f'Hello, {username}!'
 
