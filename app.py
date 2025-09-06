@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, Everyone!'
+    return 'Welcome everyone!'
 
 @app.route('/greet')
 def hello_world():
