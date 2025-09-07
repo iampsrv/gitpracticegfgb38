@@ -10,6 +10,16 @@ def hello_world():
 def hello_world():
     return 'Hello, Everyone!'
 
+
+
+import os
+
+# New route to display the value of an environment variable
+@app.route('/showenv')
+def show_env():
+    env_var = os.getenv('MY_SECRET_VAR', 'Variable not set')
+    return f'MY_SECRET_VAR: {env_var}'
+
 @app.route('/greet')
 def hello_world():
     return 'Hello, World!'
