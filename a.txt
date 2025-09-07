@@ -2,3 +2,7 @@ hello my name is Pranjal
 I am learning GIT and GITHUB
 I am learning Flask and Python
 I am learning HTML and CSS
+
+I am learning JavaScript
+I am learning ReactJS
+I am learning NodeJS
